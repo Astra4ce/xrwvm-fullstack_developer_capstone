@@ -124,3 +124,9 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.uniform-image {
+    width: 300px;        /* Set your desired width */
+    height: 200px;       /* Set your desired height */
+    object-fit: cover;   /* Cuts off edges so images don't distort */
+}
